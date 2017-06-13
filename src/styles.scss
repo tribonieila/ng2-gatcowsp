@@ -1,0 +1,190 @@
+/* You can add global styles to this file, and also import other style files */
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
+
+
+/* Top Nav */
+.top-nav {
+    width: 100%;
+	border-top: 3px solid #1d5ea8 !important;
+    background: #333333 !important;
+    padding: 0;
+    margin: 0;
+	color: white;
+	a {
+		color: white;
+		.button {
+			margin: 0 0 1rem 0;
+		}
+	}
+}
+
+.top-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li{
+      list-style: none;
+      float: left;
+      padding: 10px 10px;
+      color: white;
+      font-size: 14px;
+    }
+
+    li:first-child{
+      padding-left:0;
+    }
+
+    li i{
+      padding-right: 8px;
+    }
+}
+
+.top-list-right {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+
+    li {
+      list-style: none;
+      float: left;
+      padding: 10px 10px;
+      color: white;
+      font-size: 14px;
+    }
+
+    a{
+      color: white;
+    }
+}
+
+/* top-bar */
+.top-bar{
+	background-color: white;
+	ul {
+    	background-color: white;
+	}
+}
+
+/* Showcase */
+.showcase{
+  background: url('/assets/images/images.jpg') no-repeat -100px 0;
+  min-height: 450px;
+  color:white;
+
+  .showcase-box{
+    padding:20px 30px;
+    margin-top:30px;
+    //background:blue;
+    color:white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    p{
+      border-bottom:1px #ccc solid;
+      padding-bottom:10px;
+    }
+  }
+
+  .showcase-box-bottom{
+    //background: white;
+    padding:10px 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    .pricing span{
+      font-size:35px;
+      font-weight:bold;
+    }
+
+    .start-link{
+      padding-top:20px;
+
+      a{
+        color:white;
+      }
+    }
+  }
+}
+
+section {
+	position: relative;
+	.container {
+		padding-top: 60px;
+    	padding-bottom: 60px;
+	}
+	.title {
+		color: #1d5ea8 !important;
+	}
+	p {
+		display: block;
+    	-webkit-margin-before: 1em;
+    	-webkit-margin-after: 1em;
+    	-webkit-margin-start: 0px;
+    	-webkit-margin-end: 0px;
+		margin-bottom: 50px !important;
+		color: #666666;
+	}
+	/*
+	.icon-box {
+    	background-color: transparent;
+    	border: 2px solid #eeeeee;		
+	}
+	*/
+}
+
+/* Contact Section */
+#contact{
+	section {
+		position: relative;
+		section .container {
+    		padding-top: 60px;
+    		padding-bottom: 60px;
+		}
+	}
+	.container {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+.bg-silver-light {
+	background-color: #F7F8FA !important;
+}
+
+
+/* Footer */
+.footer {
+    color: #666666;
+    font-size: 14px;	
+	.container {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.widget.dark .widget-title.line-bottom {
+		border-bottom: 1px solid #444;
+	}
+
+	.footer .widget .widget-title {
+		margin-top: 0px;
+	}
+	
+	.widget.dark .widget-title {
+		color: #fff;
+	}
+	
+	.widget .widget-title {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	
+	.line-bottom {
+		position: relative;
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+	}	
+}
